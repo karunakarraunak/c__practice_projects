@@ -1,4 +1,4 @@
-// Objective: 
+// Objective: Program to Print Number Pattern
 // Created on: 14-05-2024
 // Created by: luciferbloodfallen
 
