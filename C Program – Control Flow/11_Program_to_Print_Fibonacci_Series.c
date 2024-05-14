@@ -14,13 +14,15 @@ int main(int argc, char const *argv[])
     printf("Fibonacci Series:\n");
 
     printf("%d %d ", a, b);
-    for (int i = 1; i <= n - 2; i++)
+    for (int i = 1; i <= n; i++)
     {
+        printf("%d ", a);
         fib = a + b;
         a = b;
         b = fib;
-        printf("%d ", fib);
     }
+
+    printf("\n");
 
     return 0;
 }
