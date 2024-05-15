@@ -1,10 +1,44 @@
-// Objective: 
-// Created on: 14-05-2024
+// Objective: Write a C program to print full diamond shape pyramid.
+// Created on: 15-05-2024
 // Created by: luciferbloodfallen
 
 #include <stdio.h>
 
 int main()
 {
+    int n = 5;
+
+    printf("Enter number of rows: \n");
+    scanf("%d", &n);
+
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = 0; j < n - i - 1; j++)
+        {
+            printf(" ");
+        }
+        for (int j = 0; j < 2 * i + 1; j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+    for (int i = 0; i < n - 1; i++)
+    {
+        for (int j = 0; j < i + 1; j++)
+        {
+            printf(" ");
+        }
+
+        for (int j = 0; j < 2 * (n - i) - 3; j++)
+        {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
     return 0;
 }
