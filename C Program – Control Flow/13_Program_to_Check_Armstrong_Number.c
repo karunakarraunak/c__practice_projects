@@ -3,17 +3,17 @@
 // Created by: luciferbloodfallen
 
 #include <stdio.h>
-// #include <math.h>
+#include <math.h>
 
-double pow(double x, double y)
-{
-    double result = 1;
-    for (int i = 0; i < y; i++)
-    {
-        result *= x;
-    }
-    return result;
-}
+// double pow(double x, double y)
+// {
+//     double result = 1;
+//     for (int i = 0; i < y; i++)
+//     {
+//         result *= x;
+//     }
+//     return result;
+// }
 
 int main(int argc, char const *argv[])
 {
